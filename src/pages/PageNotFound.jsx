@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const PageNotFound = () => {
+export const PageNotFound = () => {
   return (
     <div>
       <h1 className="text-center text-4xl font-bold capitalize text-red-700">
@@ -16,5 +16,3 @@ const PageNotFound = () => {
     </div>
   );
 };
-
-export default PageNotFound;
